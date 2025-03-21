@@ -1,0 +1,39 @@
+baseURL = "https://anthonyofseattle.githhub.io/"
+defaultContentLanguage = "en"
+# Automatically generate robots.txt
+enableRobotsTXT = true
+languageCode = "en"
+theme = "gokarna"
+title = "Anthony Barente"
+
+[menu]
+  [[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 1
+
+  [[menu.main]]
+    name = "Projects"
+    url = "/projects/"
+    weight = 2
+
+  [[menu.main]]
+    identifier = "github"
+    url = "https://github.com/AnthonyOfSeattle"
+    weight = 3
+    pre = "<span data-feather='github'></span>"
+
+[params]
+  # Profile
+  avatarURL = "/images/avatar.jpg"
+  avatarSize = "size-l"
+  description = "Data Scientist and Scientific Software Engineer"
+
+  socialIcons = [
+    {name = "bluesky", url = "https://bsky.app/profile/anthonybarente.bsky.social"},
+    {name = "linkedin", url = "https://www.linkedin.com/in/anthonyofseattle"},
+    {name = "github", url = "https://github.com/AnthonyOfSeattle"}
+  ]
+
+  # General Config
+  fontSize = "20px"
